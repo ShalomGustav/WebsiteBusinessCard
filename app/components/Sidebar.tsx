@@ -28,7 +28,7 @@ const Sidebar = () => {
 
       return () => clearTimeout(timeout);
     }
-  }, [isRouting, path]); // Добавьте path в зависимости
+  }, [isRouting, path]); 
 
   return (
     <div className="fixed right-8 top-[40%] z-[20] h-[200px] w-[48px] rounded-full bg-gray-500 bg-opacity-50">
