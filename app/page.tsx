@@ -36,7 +36,7 @@ export default function Home() {
           Преподаватель{" "}
           <span className="text-red-500">математики / программирования</span>
         </h1>
-        <div className="relative w-[180px] h-[180px] md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] mt-[10px] mb-14 md:mb-0 lg:mb-0">
+        <div className="relative w-[160px] h-[160px] md:w-[200px] md:h-[200px] lg:w-[250px] lg:h-[250px] mt-[10px] mb-14 md:mb-0 lg:mb-0">
           <Image
             src="/assets/rounded-text.png"
             alt="projects"

@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const ServiceSlider = () => {
   return (
-    <div className="absolute bottom-0 right-20 md:bottom-40 md:right-30 w-[60%] md:w-[88%]">
+    <div className="relative w-full px-6 md:px-12 lg:px-12 pb-12">
       <Swiper
         breakpoints={{
           120: {

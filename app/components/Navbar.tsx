@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="fixed top-10 left-0 right-2 bg-transparent z-[20] flex items-start justify-between md:px-60 p-5">
 
-      <h1 className="absolute left-6 top-[-10px] text-white text-[12px] md:text-[28px] lg:text-[40px] xl:text-[45px] whitespace-nowrap overflow-hidden text-ellipsis">
+      <h1 className="absolute left-6 top-[-10px] text-white text-[11px] md:text-[28px] lg:text-[40px] xl:text-[45px] whitespace-nowrap overflow-hidden text-ellipsis">
         Фатихов <span className="font-thin">Максим</span>
         <span className="text-red-500"> Сергеевич</span>
       </h1>

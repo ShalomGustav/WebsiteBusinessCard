@@ -25,14 +25,14 @@ const ProjectSlider = () => {
         modules={[FreeMode, Pagination]}
       >
         <SwiperSlide className="mb-5">
-          <div className="grid grid-cols-2 gap-3 md:px-6">
+          <div className="grid grid-cols-2 gap-3 md:gap-1 md:px-2">
             {ProImages.map((item) => (
               <SwiperSlide key={item.src}>
                 <a
                   href={item.src}  // Ссылка на изображение
                   target="_blank"   // Открывается в новом окне
                   rel="noopener noreferrer" // Для безопасности
-                  className="block rounded-md cursor-pointer relative group w-[100px] h-[100px] md:w-[230px] md:h-[230px] overflow-hidden"
+                  className="block rounded-md cursor-pointer relative group w-[80px] h-[80px] md:w-[230px] md:h-[230px] overflow-hidden"
                 >
                   <Image
                     src={item.src}
@@ -74,7 +74,7 @@ const ProjectSlider = () => {
                   href={item.src}  // Ссылка на изображение
                   target="_blank"   // Открывается в новом окне
                   rel="noopener noreferrer" // Для безопасности
-                  className="block rounded-md cursor-pointer relative group w-[100px] h-[100px] md:w-[230px] md:h-[230px] overflow-hidden"
+                  className="block rounded-md cursor-pointer relative group w-[80px] h-[80px] md:w-[230px] md:h-[230px] overflow-hidden"
                 >
                   <Image
                     src={item.src}
