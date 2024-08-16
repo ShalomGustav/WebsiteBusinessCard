@@ -14,7 +14,7 @@ export const Socials = [
   {
     name: "Discord",
     src: "/assets/discord.svg",
-    link: "https://discord.gg/Q3cUq4Bp",
+    link: "https://discord.gg/PjGHwxhbMn",
   },
   {
     name: "vk",
