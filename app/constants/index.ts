@@ -24,7 +24,7 @@ export const Socials = [
   {
     name: "Telergam",
     src: "/assets/telegram.svg",
-    link: "https://t.me/Maximmaximmaxim6",
+    link: "https://t.me/+2Z-gKJinV8FhMTky",
   },
   {
     name: "Github",
